@@ -12,10 +12,10 @@ $fname = filter_input(INPUT_POST, 'firstname');
 $lname = filter_input(INPUT_POST, 'lastname');
 if (!empty($username)){
 if (!empty($password)){
-$host = "198.71.225.65:3306";
-$dbusername = "todd";
-$dbpassword = "jrdtdd558877";
-$dbname = "security";
+$host = "";
+$dbusername = "";
+$dbpassword = "";
+$dbname = "";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 if (mysqli_connect_error()){
